@@ -482,6 +482,7 @@ body.dark-mode .products {
   cursor: pointer;
   transition: all 0.3s;
   font-weight: 500;
+  color: white;
 }
 
 .filter-btn:hover,
