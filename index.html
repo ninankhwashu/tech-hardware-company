@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Hub Solutions | Office Equipment Supplier | Letsitele</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a href="#" class="logo">
+          <img
+            src="https://via.placeholder.com/40x40/2563eb/ffffff?text=THS"
+            alt="Tech Hub Solutions Logo"
+            class="logo-img"
+          />
+          <span class="logo-text">Tech Hub Solutions</span>
+        </a>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button class="theme-toggle" id="themeToggle">
+          <i class="fas fa-moon"></i>
+        </button>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="mobile-menu-close" id="mobileMenuClose">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <ul class="mobile-nav-links">
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#services" class="mobile-nav-link">Services</a></li>
+        <li><a href="#products" class="mobile-nav-link">Products</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle mobile-theme-toggle" id="mobileThemeToggle">
+        <i class="fas fa-moon"></i> Toggle Theme
+      </button>
+    </div>
+
+    <section class="hero" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Your Trusted Office Equipment Partner in Limpopo
+          </h1>
+          <p class="hero-subtitle">
+            Tech Hub Solutions provides top-quality office equipment, supplies,
+            and maintenance services to businesses throughout Letsitele and
+            surrounding areas.
+          </p>
+          <div class="hero-buttons">
+            <a href="#products" class="btn">Explore Products</a>
+            <a href="#contact" class="btn btn-outline">Request Service</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            alt="Modern Office Equipment"
+            class="hero-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <h2 class="section-title text-center">About Tech Hub Solutions</h2>
+        <p class="section-subtitle text-center">
+          Serving the Limpopo business community with reliable office solutions
+          since 2015
+        </p>
+
+        <div class="about-container">
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+              alt="Tech Hub Solutions Team"
+              class="about-img"
+            />
+          </div>
+          <div class="about-content">
+            <h3 class="about-title">Why Choose Us?</h3>
+            <p class="about-text">
+              Tech Hub Solutions (Pty) Ltd has been a trusted name in office
+              equipment supply and service in Letsitele for nearly a decade. We
+              pride ourselves on delivering exceptional products and unmatched
+              customer service.
+            </p>
+
+            <div class="about-features">
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fas fa-check-circle"></i>
+                </div>
+                <div class="feature-content">
+                  <h4>Local Expertise</h4>
+                  <p>
+                    We understand the unique needs of Limpopo businesses and
+                    provide tailored solutions.
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fas fa-headset"></i>
+                </div>
+                <div class="feature-content">
+                  <h4>24/7 Support</h4>
+                  <p>
+                    Our dedicated support team is always available to assist
+                    with any issues or questions.
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature">
+                <div class="feature-icon">
+                  <i class="fas fa-truck"></i>
+                </div>
+                <div class="feature-content">
+                  <h4>Fast Delivery</h4>
+                  <p>
+                    We offer prompt delivery services throughout the Limpopo
+                    province.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <h2 class="section-title text-center">Our Services</h2>
+        <p class="section-subtitle text-center">
+          Comprehensive office solutions to keep your business running smoothly
+        </p>
+
+        <div class="services-grid">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1581093450021-4a7360e9a6e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+              alt="Equipment Sales"
+              class="card-img"
+            />
+            <div class="card-content">
+              <h3 class="card-title">Equipment Sales</h3>
+              <p class="card-text">
+                We offer a wide range of high-quality office equipment from
+                trusted brands at competitive prices.
+              </p>
+              <a href="#products" class="btn btn-outline">View Products</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1581093057305-25a6129a6926?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+              alt="Maintenance & Repair"
+              class="card-img"
+            />
+            <div class="card-content">
+              <h3 class="card-title">Maintenance & Repair</h3>
+              <p class="card-text">
+                Our certified technicians provide prompt and reliable repair
+                services for all major office equipment brands.
+              </p>
+              <a href="#contact" class="btn btn-outline">Request Service</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+              alt="Supplies & Consumables"
+              class="card-img"
+            />
+            <div class="card-content">
+              <h3 class="card-title">Supplies & Consumables</h3>
+              <p class="card-text">
+                We stock all the office supplies you need, from printer ink to
+                stationery, with convenient delivery options.
+              </p>
+              <a href="#products" class="btn btn-outline">Shop Supplies</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products" id="products">
+      <div class="container">
+        <h2 class="section-title text-center">Our Products</h2>
+        <p class="section-subtitle text-center">
+          Quality office equipment and supplies for businesses of all sizes
+        </p>
+
+        <div class="products-filter">
+          <button class="filter-btn active" data-filter="all">
+            All Products
+          </button>
+          <button class="filter-btn" data-filter="printers">Printers</button>
+          <button class="filter-btn" data-filter="computers">Computers</button>
+          <button class="filter-btn" data-filter="furniture">Furniture</button>
+          <button class="filter-btn" data-filter="supplies">Supplies</button>
+        </div>
+
+        <div class="products-grid">
+          <div class="product-card" data-category="printers">
+            <div class="product-img-container">
+              <span class="product-badge">Best Seller</span>
+              <img
+                src="https://images.unsplash.com/photo-1591488320449-011701bb6704?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                alt="Laser Printer"
+                class="product-img"
+              />
+            </div>
+            <div class="product-content">
+              <span class="product-category">Printers</span>
+              <h3 class="product-title">ProLaser X900</h3>
+              <div class="product-price">
+                <span class="current-price">R5,299</span>
+                <span class="original-price">R6,499</span>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(24)</span>
+              </div>
+              <button class="btn product-btn" data-product="1">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="computers">
+            <div class="product-img-container">
+              <img
+                src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
+                alt="Desktop Computer"
+                class="product-img"
+              />
+            </div>
+            <div class="product-content">
+              <span class="product-category">Computers</span>
+              <h3 class="product-title">WorkPro Desktop</h3>
+              <div class="product-price">
+                <span class="current-price">R8,999</span>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>(18)</span>
+              </div>
+              <button class="btn product-btn" data-product="2">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="furniture">
+            <div class="product-img-container">
+              <span class="product-badge">New</span>
+              <img
+                src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
+                alt="Office Chair"
+                class="product-img"
+              />
+            </div>
+            <div class="product-content">
+              <span class="product-category">Furniture</span>
+              <h3 class="product-title">ErgoComfort Chair</h3>
+              <div class="product-price">
+                <span class="current-price">R2,499</span>
+                <span class="original-price">R3,199</span>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(32)</span>
+              </div>
+              <button class="btn product-btn" data-product="3">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="supplies">
+            <div class="product-img-container">
+              <img
+                src="https://images.unsplash.com/photo-1629196911285-60d6eeb41b8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                alt="Printer Ink"
+                class="product-img"
+              />
+            </div>
+            <div class="product-content">
+              <span class="product-category">Supplies</span>
+              <h3 class="product-title">InkJet Pro Cartridge</h3>
+              <div class="product-price">
+                <span class="current-price">R399</span>
+                <span class="original-price">R499</span>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(47)</span>
+              </div>
+              <button class="btn product-btn" data-product="4">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="printers">
+            <div class="product-img-container">
+              <img
+                src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                alt="All-in-One Printer"
+                class="product-img"
+              />
+            </div>
+            <div class="product-content">
+              <span class="product-category">Printers</span>
+              <h3 class="product-title">OfficeJet 4500</h3>
+              <div class="product-price">
+                <span class="current-price">R3,899</span>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>(15)</span>
+              </div>
+              <button class="btn product-btn" data-product="5">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card" data-category="computers">
+            <div class="product-img-container">
+              <span class="product-badge">Sale</span>
+              <img
+                src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1626&q=80"
+                alt="Laptop"
+                class="product-img"
+              />
+            </div>
+            <div class="product-content">
+              <span class="product-category">Computers</span>
+              <h3 class="product-title">BusinessBook Pro</h3>
+              <div class="product-price">
+                <span class="current-price">R12,999</span>
+                <span class="original-price">R14,999</span>
+              </div>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(29)</span>
+              </div>
+              <button class="btn product-btn" data-product="6">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center" style="margin-top: 50px">
+          <a href="#contact" class="btn">Contact Us for More Products</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number" id="clientsCount">0</div>
+            <div class="stat-text">Satisfied Clients</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" id="productsCount">0</div>
+            <div class="stat-text">Quality Products</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" id="yearsCount">0</div>
+            <div class="stat-text">Years in Business</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" id="supportCount">0</div>
+            <div class="stat-text">24/7 Support</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container">
+        <h2 class="section-title text-center">What Our Clients Say</h2>
+        <p class="section-subtitle text-center">
+          Trusted by businesses throughout Limpopo
+        </p>
+
+        <div class="testimonials-slider">
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              Tech Hub Solutions has been our go-to supplier for all office
+              equipment needs. Their products are top quality and their service
+              is exceptional. Highly recommended for any business in the area.
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://randomuser.me/api/portraits/women/45.jpg"
+                alt="Sarah M."
+                class="author-img"
+              />
+              <div class="author-info">
+                <h4>Sarah M.</h4>
+                <p>Office Manager, Letsitele Accounting</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              When our printer broke down right before a big deadline, Tech Hub
+              Solutions had a technician at our office within 2 hours. They
+              saved the day and we've been loyal customers ever since.
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://randomuser.me/api/portraits/men/32.jpg"
+                alt="James T."
+                class="author-img"
+              />
+              <div class="author-info">
+                <h4>James T.</h4>
+                <p>Director, Limpopo Legal Services</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              Their prices are competitive and their delivery is always on time.
+              We've outfitted our entire office with furniture and equipment
+              from Tech Hub Solutions and couldn't be happier.
+            </p>
+            <div class="testimonial-author">
+              <img
+                src="https://randomuser.me/api/portraits/women/68.jpg"
+                alt="Precious K."
+                class="author-img"
+              />
+              <div class="author-info">
+                <h4>Precious K.</h4>
+                <p>CEO, Tzaneen Tech Startups</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section-title text-center">Contact Us</h2>
+        <p class="section-subtitle text-center">
+          Get in touch for quotes, service requests, or any inquiries
+        </p>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>How Can We Help?</h3>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Our Location</h4>
+                  <p>123 Business Park, Letsitele<br />Limpopo, 0885</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Call Us</h4>
+                  <p><a href="tel:+27151234567">+27 15 123 4567</a></p>
+                  <p>
+                    <a href="tel:+27821234567">+27 82 123 4567</a> (Emergency)
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Email Us</h4>
+                  <p>
+                    <a href="mailto:info@techhubsolutions.co.za"
+                      >info@techhubsolutions.co.za</a
+                    >
+                  </p>
+                  <p>
+                    <a href="mailto:support@techhubsolutions.co.za"
+                      >support@techhubsolutions.co.za</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Business Hours</h4>
+                  <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                  <p>Saturday: 9:00 AM - 1:00 PM</p>
+                  <p>Emergency Support: 24/7</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form id="serviceRequestForm">
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" class="form-control" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" class="form-control" required />
+              </div>
+
+              <div class="form-group">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" id="phone" class="form-control" required />
+              </div>
+
+              <div class="form-group">
+                <label for="service" class="form-label">Service Needed</label>
+                <select id="service" class="form-control" required>
+                  <option value="">Select a service</option>
+                  <option value="sales">Product Inquiry/Sales</option>
+                  <option value="repair">Equipment Repair</option>
+                  <option value="maintenance">Maintenance Contract</option>
+                  <option value="supplies">Supply Order</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-control" required></textarea>
+              </div>
+
+              <button type="submit" class="btn submit-btn">Send Request</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map">
+      <div class="container map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.635246469677!2d30.23491131503219!3d-23.8853198848719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d8b8b1a5a5a5%3A0x1a3b3b3b3b3b3b3b!2sLetsitele%2C%200885%2C%20South%20Africa!5e0!3m2!1sen!2sus!4v1629196911285!5m2!1sen!2sus"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-col">
+            <h3>Tech Hub Solutions</h3>
+            <p class="footer-text">
+              Your trusted partner for office equipment and supplies in Limpopo.
+              Quality products, exceptional service.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Services</h3>
+            <ul class="footer-links">
+              <li><a href="#">Equipment Sales</a></li>
+              <li><a href="#">Repair Services</a></li>
+              <li><a href="#">Maintenance Contracts</a></li>
+              <li><a href="#">Office Supplies</a></li>
+              <li><a href="#">IT Support</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p class="footer-text">
+              Subscribe to our newsletter for the latest products and special
+              offers.
+            </p>
+            <div class="footer-newsletter">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email"
+              />
+              <button class="btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Tech Hub Solutions (Pty) Ltd. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top" id="backToTop">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <div class="modal" id="productModal">
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose">
+          <i class="fas fa-times"></i>
+        </button>
+        <h3 class="modal-title">Product Added to Cart</h3>
+        <p>
+          Your selected product has been added to your cart. Would you like to
+          continue shopping or proceed to checkout?
+        </p>
+        <div style="display: flex; gap: 15px; margin-top: 20px">
+          <a href="#products" class="btn btn-outline">Continue Shopping</a>
+          <a href="#" class="btn" id="checkoutBtn">Proceed to Checkout</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="successModal">
+      <div class="modal-content">
+        <button class="modal-close" id="successModalClose">
+          <i class="fas fa-times"></i>
+        </button>
+        <div style="text-align: center; padding: 20px">
+          <i
+            class="fas fa-check-circle"
+            style="
+              font-size: 4rem;
+              color: var(--secondary);
+              margin-bottom: 20px;
+            "
+          ></i>
+          <h3 class="modal-title">Request Submitted!</h3>
+          <p>
+            Thank you for contacting Tech Hub Solutions. We've received your
+            request and will get back to you within 24 hours.
+          </p>
+          <button class="btn" id="successModalBtn" style="margin-top: 20px">
+            OK
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
