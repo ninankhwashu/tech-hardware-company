@@ -482,7 +482,7 @@ body.dark-mode .products {
   cursor: pointer;
   transition: all 0.3s;
   font-weight: 500;
-  color: white;
+  color: #2563eb;
 }
 
 .filter-btn:hover,
@@ -725,6 +725,7 @@ body.dark-mode .testimonials {
 
 .contact {
   background-color: white;
+  padding-bottom: 30px;
 }
 
 body.dark-mode .contact {
@@ -845,6 +846,13 @@ textarea.form-control {
   width: 100%;
   padding: 14px;
   font-size: 1rem;
+}
+
+.credit {
+  color: #64748b;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 30px;
 }
 
 .map {
